@@ -1,0 +1,6 @@
+services:
+  - type: web
+    runtime: static
+    name: smartbus-safety-simulator
+    buildCommand: npm install && npm run build
+    staticPublishPath: dist
